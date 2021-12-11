@@ -94,4 +94,12 @@
         app:srcCompat="@android:drawable/stat_sys_download"
         tools:layout_editor_absoluteX="216dp"
         tools:layout_editor_absoluteY="563dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="656dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
