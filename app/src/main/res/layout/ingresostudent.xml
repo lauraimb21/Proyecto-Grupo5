@@ -10,10 +10,10 @@
         android:id="@+id/editTextDate2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="14"
+        android:ems="10"
         android:inputType="date"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="307dp" />
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="316dp" />
 
     <EditText
         android:id="@+id/editTextDate3"
@@ -21,8 +21,8 @@
         android:layout_height="wrap_content"
         android:ems="14"
         android:inputType="date"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="436dp" />
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="483dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -42,8 +42,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Nombres"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="106dp" />
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="117dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -52,8 +52,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Apellidos"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="244dp" />
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="249dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -62,44 +62,44 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Programa Academico"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="371dp" />
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="416dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableTint="#3F51B5"
-        android:ems="10"
+        android:ems="7"
         android:foregroundTint="#03A9F4"
         android:inputType="textPersonName"
         android:text="Carga Tu foto"
         android:textColor="#3F51B5"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="500dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="262dp" />
 
     <EditText
         android:id="@+id/editTextDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="14"
+        android:ems="10"
         android:inputType="date"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="177dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="82dp"
-        android:layout_height="73dp"
-        app:srcCompat="@android:drawable/stat_sys_download"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="563dp" />
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="184dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Guardar"
-        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteX="143dp"
         tools:layout_editor_absoluteY="656dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="117dp"
+        tools:srcCompat="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>
