@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "948213343404",
+    "project_id": "sintomapp2022",
+    "storage_bucket": "sintomapp2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948213343404:android:bcc6fdd3901744d8732b09",
+        "android_client_info": {
+          "package_name": "co.edu.unab.wilmer.laura.sintomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948213343404-0a5tmcni4bqhjg8qhleeq2v29kvocfps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvKeDaD0dlzLzCfXIUBDBRQbYWKG6SAVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948213343404-0a5tmcni4bqhjg8qhleeq2v29kvocfps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

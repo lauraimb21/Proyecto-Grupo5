@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:backgroundTint="#02FFFFFF"
+    android:foregroundTint="#00FFFFFF"
+    tools:context=".Encuesta">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Encuesta"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="52dp"
+        android:layout_height="51dp"
+        android:text="NO"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:inputType="textPersonName"
+        android:text="¿Presenta Malestar General?"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:inputType="textPersonName"
+        android:text="¿Ha presentado Fiebre mayot a 37°?"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="18"
+        android:inputType="textPersonName"
+        android:text="¿Has perdido el Gusto y olfato?"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="22"
+        android:inputType="textPersonName"
+        android:text="¿presenta dolor de garganta?"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="22"
+        android:inputType="textPersonName"
+        android:text="¿Se ha realizado Prueba COVID en 10 dias?"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
